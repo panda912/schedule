@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tv_list_primary_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_list</item>
+        <item name="android:textColor">@color/main_primary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_info_secondary_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_info</item>
+        <item name="android:textColor">@color/main_secondary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ProgressBar.Loading" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_icon_loop</item>
+        <item name="android:minWidth">36dp</item>
+        <item name="android:minHeight">36dp</item>
+    </style>
+
+    <style name="show_tv1">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:layout_marginLeft">1.5dp</item>
+    </style>
+
+    <style name="show_tv1_1">
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:layout_marginLeft">1.5dp</item>
+    </style>
+
+    <style name="show_tv2">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <style name="show_tv3">
+        <item name="android:textSize">18dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <style name="widget_tv1">
+        <item name="android:textSize">10sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="widget_tv2">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+
+    <style name="widget_tv3">
+        <item name="android:textSize">7sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="scheduleInsert_tv1">
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:layout_marginLeft">1.5dp</item>
+    </style>
+
+    <style name="scheduleInsert_et2">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <style name="scheduleInsert_et3">
+        <item name="android:textSize">13dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <style name="scheduleInsert_et4">
+        <item name="android:textSize">13dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@drawable/show_tv_background</item>
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">1.5dp</item>
+    </style>
+
+    <style name="tab_item_text_style">
+        <item name="android:textSize">28.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="remind_insert_edit_text_style">
+        <item name="android:textSize">28.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#A0522D</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="tab_item_background">
+        <item name="android:textAppearance">@style/tab_item_text_style</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/selector_tab_background2</item> -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">3.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="btn_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_btn</item>
+    </style>
+
+    <style name="btn_style_2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_btn_2</item>
+    </style>
+
+    <style name="R_tittle_tv">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowColor">@color/black</item>
+    </style>
+
+    <style name="R_datebox_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="widget_schedule">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">毛邓三</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#ffd700</item>
+        <item name="android:lines">2</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="widget_add">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#f0e68c</item>
+        <item name="android:text">教二224</item>
+        <item name="android:lines">2</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="R_edittext_et">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:hint">请在这里输入内容...</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:maxLength">300</item>
+        <item name="android:maxLines">8</item>
+        <item name="android:drawableBottom">@drawable/edittext_bottom</item>
+        <item name="android:background">@drawable/edittext_background_1</item>
+        <item name="android:paddingLeft">23dp</item>
+        <item name="android:paddingRight">23dp</item>
+        <item name="android:paddingTop">30dp</item>
+    </style>
+
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/translucent_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/translucent_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/translucent_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/translucent_exit</item>
+    </style>
+
+    <style name="AnimationTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+
+    <style name="courseDetailInfoDialogStyle">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="MessageBox">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    
+    <style name="centerDialogWindowAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/scale_dialog_show</item>
+        <item name="android:windowExitAnimation">@anim/scale_dialog_close</item>
+    </style>
+
+</resources>

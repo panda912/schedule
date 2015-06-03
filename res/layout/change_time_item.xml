@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp" >
+
+    <TextView
+        android:id="@+id/my_list_catalog1"
+        style="@style/scheduleInsert_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:text="1、2节" />
+
+    <TextView
+        android:id="@+id/my_starttime"
+        style="@style/scheduleInsert_tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/my_list_catalog1"
+        android:text="08:00" />
+
+    <TextView
+        android:id="@+id/my_endtime"
+        style="@style/scheduleInsert_tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/my_starttime"
+        android:layout_below="@id/my_starttime"
+        android:text="09:40" />
+
+</RelativeLayout>

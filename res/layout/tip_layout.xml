@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view1" >
+
+    <RelativeLayout
+        android:id="@+id/rl_tip"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#40F7f938" >
+
+        <TextView
+            android:id="@+id/tip_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnWidth="200dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:verticalSpacing="10dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/tip_button1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/rl_tip"
+        android:background="#40F70938"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:text="停止"
+        android:verticalSpacing="10dp" />
+
+    <Button
+        android:id="@+id/tip_button2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tip_button1"
+        android:background="#400fff38"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:text="进入主界面"
+        android:verticalSpacing="10dp" />
+
+</RelativeLayout>
